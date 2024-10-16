@@ -9,5 +9,5 @@ spec:
       secretName: hello-world-app2-tls
   routes:
     - services:
-        - name: hello-world-app1
+        - name: hello-world-app2
           port: 80
