@@ -5,7 +5,9 @@ metadata:
 spec:
   virtualhost:
     fqdn: hello-world-app2.swa-raj.online
+    tls: 
+      secretName: hello-world-app2-tls
   routes:
     - services:
-        - name: hello-world-app2
+        - name: hello-world-app1
           port: 80
